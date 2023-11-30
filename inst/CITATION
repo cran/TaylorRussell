@@ -1,0 +1,12 @@
+bibentry(
+bibtype = "Manual",
+         title = "TaylorRussell: Functions for multiple predictor Taylor-Russell prediction",
+         author = "Niels G. Waller and Ziyu Ren",
+		 organization = "University of Minnesota",
+		 address = "Minneapolis, Minnesota",
+         year = "2023",
+         note = "R package version 1.2",
+		 url = "https://CRAN.R-project.org/package=TaylorRussell"
+)
+
+
