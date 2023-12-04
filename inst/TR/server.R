@@ -349,6 +349,9 @@ server <- function(input, output,session) {
 # ---- Plot Output ----
 ## Generate output for plot; 
 ## Recalculate the function
+  
+  oldpar <- par(pty="s")
+  
   Plot <- reactive({
     
     # ---- _TR Functions ----
@@ -498,7 +501,7 @@ server <- function(input, output,session) {
       sr<-input$sr3
     }
     
-    oldpar <- par(pty="s")
+  
     
 ## ---- convert sr/br ----
 # Change the values to z-score
